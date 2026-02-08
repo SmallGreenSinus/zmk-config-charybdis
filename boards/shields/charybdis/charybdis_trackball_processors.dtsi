@@ -31,12 +31,13 @@
         layers = <BASE POINTER>; \
         input-processors = <&zip_xy_scaler 3 2>; \
     };
-    caret { 
-        layers = <CARET>;
+	\
+    caret { \
+        layers = <CARET>; \
         input-processors = <
             &zip_keybind_keys
             &zip_scroll_snap
-        >;
+        >; \
         process-next;
     };
 	/ {
@@ -52,4 +53,5 @@
         wait-ms = <0>;
         tap-ms = <10>;
     };
+};
 
