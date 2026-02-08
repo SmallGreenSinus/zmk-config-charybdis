@@ -16,5 +16,4 @@
 #define SYMBOLS 4
 #define SCROLL 5
 #define SNIPING 6
-#define GAMING 7
 
