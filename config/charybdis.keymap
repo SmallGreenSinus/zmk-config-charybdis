@@ -71,11 +71,11 @@
     };
 	
 	// Tapdance for double tap
-	dt: double_tap {
+	ls_clck: left_shift_caps_lock {
 	  compatible = "zmk,behavior-tap-dance";
-      #binding-cells = <2>;
+      #binding-cells = <0>;
       tapping-term-ms = <200>;
-      bindings = <&kp>, <&kp>;
+      bindings = <&kp LSFT>, <&kp CLCK>;
 	};
   };
 
@@ -148,7 +148,7 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├───────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &kp RCTRL     &kp LC(A)     &kp LC(S)     &mkp RCLK     &mkp LCLK     &mkp MCLK         &kp LC(TAB)     &kp INS       &kp UP        &kp PSCRN     &kp MINUS     &kp EQUAL
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├───────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &dt LSFT CLCK &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &mo SCROLL        &kp RC(LS(TAB)) &kp LEFT      &kp DOWN      &kp RIGHT     &kp BSLH      &kp GRAVE
+    &ls_clck      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &mo SCROLL        &kp RC(LS(TAB)) &kp LEFT      &kp DOWN      &kp RIGHT     &kp BSLH      &kp GRAVE
 // ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯   ╰───────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
 //               ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭───────────────┬─────────────┬─────────────╮
                   &trans        &trans        &trans        &trans        &trans            &trans          &trans        &trans
