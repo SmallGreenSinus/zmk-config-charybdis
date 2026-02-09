@@ -11,7 +11,7 @@
 // Layer definitions matching the keymap
 #define BASE 0
 #define POINTER 1
-#define LOWER 2
+#define KEYPAD 2
 #define RAISE 3
 #define SYMBOLS 4
 #define SCROLL 5
