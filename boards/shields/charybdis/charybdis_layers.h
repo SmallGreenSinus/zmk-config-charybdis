@@ -15,5 +15,6 @@
 #define RAISE 3
 #define SYMBOLS 4
 #define SCROLL 5
-#define SNIPING 6
+#define FSCROLL 6
+#define SNIPING 7
 
