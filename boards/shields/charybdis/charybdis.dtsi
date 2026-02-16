@@ -105,7 +105,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8) RC(3,9)
             // Thumb Clusters
             // Keys array order matches keymap bindings (positions 48-55)
             // Left thumb bindings: 48=LOWER, 49=LALT, 50=POINTER, 51=gui_ctrlb, 52=LCTRL
-            // Right thumb bindings: 53=RET, 54=SYMBOLS, 55=RAISE
+            // Right thumb bindings: 53=RET, 54=SYMBOLS, 55=LANGUAGE
             // Physical coordinates per actual key positions from keymap comments
             //                       w   h    x    y     rot    rx    ry
             , <&key_physical_attrs 100 100  518  420    1500   398   790>  // 48 (LOWER) - physical: 3rd from left
@@ -115,7 +115,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8) RC(3,9)
             , <&key_physical_attrs 100 100  382  514    1500   398   790>  // 52 (LCTRL) - physical: 4th from left
             , <&key_physical_attrs 100 100 1052  520 (-3000)  1102   790>  // 53 (RET) - physical: 3rd from right (bottom)
             , <&key_physical_attrs 100 100 1067  414 (-1500)  1102   790>  // 54 (SYMBOLS) - physical: 2nd from right (top)
-            , <&key_physical_attrs 100 100 1052  420 (-3000)  1102   790>  // 55 (RAISE) - physical: 1st from right (top)
+            , <&key_physical_attrs 100 100 1052  420 (-3000)  1102   790>  // 55 (LANGUAGE) - physical: 1st from right (top)
             ;
     };
 

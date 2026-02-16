@@ -12,7 +12,7 @@
 #define BASE 0
 #define POINTER 1
 #define LOWER 2
-#define RAISE 3
+#define LANGUAGE 3
 #define SYMBOLS 4
 #define SCROLL 5
 #define FSCROLL 6
